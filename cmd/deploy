@@ -1,0 +1,8 @@
+#!/bin/bash
+source `cd $(dirname $0);pwd`/base.sh
+
+$PATH_ROOT/cmd/update $*
+
+#dbcheck=$($PATH_ROOT/cmd/run _ /cli/mysql-check)
+
+$PATH_ROOT/cmd/release $*

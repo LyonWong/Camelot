@@ -1,0 +1,9 @@
+.idea/*
+*.vmap.*
+runtime
+*/config/.conf/*.php
+*/config/local/*.*
+*/public/assets
+*/view/assets/resource
+*.swp
+*.cache

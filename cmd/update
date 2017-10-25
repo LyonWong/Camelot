@@ -1,0 +1,9 @@
+#!/bin/bash
+source `cd $(dirname $0);pwd`/base.sh
+
+cd $PATH_ROOT
+git pull
+cmd/make _ conf
+cmd/make Admin conf
+cmd/make _ vmap
+cmd/make Admin vmap
